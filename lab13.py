@@ -34,10 +34,10 @@ class BoxFilled(Box):
         super().__init__(x1, y1, width, height, color)
         self.fillcolor = fillcolor
     def draw_action(self):
-        '''turtle.fillcolor(self.fillcolor)
-        turtle.begin_fill()'''
+        turtle.fillcolor(self.fillcolor)
+        turtle.begin_fill()
         super().draw_action()  
-        '''turtle.end_fill()'''
+        turtle.end_fill()
 
 class Circle(Point):
     def __init__(self, x1, y1, radius, color):
